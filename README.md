@@ -283,12 +283,7 @@ Smog4000 dataset created by our team.
 General set of transforms was used as mentioned [here](https://docs.fast.ai/vision.transform.html#Data-augmentation-details)
 
 ## About the model
-Resnet101 backbone was used with LR = 1E-03.
-
-## Model Compilation
-* Optimizer: Adam(Adaptive Momentum) Optimizer is used on this model.
-* Learning rate: default(0.001)
-* Loss function: Categorical_crossentropy (categories: clear, smog)
+Resnet101 backbone was used with Learnig Rate = 1e-03.
 
 ## Training
 * Epochs:  30
