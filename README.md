@@ -267,4 +267,39 @@ The Final block is for linear layers. It has:
 
 ## Find the notebook for this implementation [here](https://github.com/q-viper/SmogDetection/blob/master/Smog4000/keras_Smog4000.ipynb). 
 
+****************************************************************************************************************************************
+## PART 4: TECHNICAL SUMMARY OF IMPLEMENTATION WITH FASTAI:
+****************************************************************************************************************************************
+
+## Description
+* Libraries used: FastAI, numpy, pathlib etc
+* Trained: On Kaggle
+* Dataset Used: Smog4000 
+
+## About dataset:
+Smog4000 dataset created by our team. 
+
+## Preprocessing of data
+General set of transforms was used as mentioned [here](https://docs.fast.ai/vision.transform.html#Data-augmentation-details)
+
+## About the model
+Resnet101 backbone was used with LR = 1E-03.
+
+## Model Compilation
+* Optimizer: Adam(Adaptive Momentum) Optimizer is used on this model.
+* Learning rate: default(0.001)
+* Loss function: Categorical_crossentropy (categories: clear, smog)
+
+## Training
+* Epochs:  30
+* Batch Size: 64
+
+## Performance
+* Train Loss: 0.0328
+* Validation Loss: 0.0104
+* Error rate: 0.046
+* Validation Accuracy: 0.9953
+* Train time: 59s per epoch
+
+## Find the notebook for this implementation [here](https://www.kaggle.com/lalwaniabhishek/smog4000).
 
