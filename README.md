@@ -20,7 +20,7 @@ Laura Truncellito - @LauraT
 # Project Overview
 
 <p>This is a project for the Project Showcase Challenge of the Udacity Facebook Secure and Private AI Challenge Scholarship Program.</p>
-<p>The purpose of the project is to detect smog using image classifcation algorithms. You can upload images here and our algorithms will know if the environment has smog or clear: https://smog4000.onrender.com/ </p>
+<p>The purpose of the project is to detect smog using image classifcation algorithms.</p>
 
 
 ## Smog Detection Project
@@ -34,7 +34,7 @@ ________________________________________________________________________________
 
 <ins>Description:</ins></br>
 Smog Detection project has been created as a collaborative team effort between 
-Facebook Secure and Private AI Scholars on #sg_planetearth. Main focus of the project is to provide Deep Learning solutions to solve most concerning real world problems, such as Climate Change, Food Security, Plastic Pollution, Deep Fake, Oceanic Pollution, Industrial Nuclear Waste, Clean Energy and more(using AI for social good). Currently our team is focusing on Smog and Fog detection on highways.</br></br> 
+Facebook Secure and Private AI Scholars on #sg_planetearth. Main focus of the project is to provide Deep Learning solutions to solve most concerning real world problems, such as Climate Change, Food Security, Plastic Pollution, Deep Fake, Oceanic Pollution, Industrial Nuclear Waste, Clean Energy and more (using AI for social good). Currently our team is focusing on Smog and Fog detection on highways.</br></br> 
 
 <ins>Why is it important? Why should we care?</ins></br>
 Sudden appearance of smog and/or fog on the highway more often than not cause serious and sometimes fatal accidents. Smog is a main agent for severe air pollution. It can aggravate health problems including problems with breathing and sleeping, as well as it can inversely damage plants and forest cover.</br></br>  
@@ -45,7 +45,7 @@ Monitoring, early smog detection and preventive action. By using traffic cameras
 In any practical situation, there are other components that need to be taken into consideration as well. For example, presence of flying birds and any type of material that will block camera view. To identify the range of vision sensors need to be added to the solution.</br></br>  
 
 <ins>Our approach:</ins></br>
-There are plenty of existing solutions and advancements in computer vision. Our approach is to use Machine Learning Image Detection and train a CNN model. Smog Detection is a smog classification project, where images are arranged into two main cathegories: "Smog/Fog/NotClearlyVisible Highways" and "Clearly Visible Highways".</br></br>   
+There are plenty of existing solutions and advancements in computer vision. Our approach is to use Deep Learning Image Detection and train a CNN model. Smog Detection is a smog classification project, where images are arranged into two main cathegories: "Smog/Fog/NotClearlyVisible Highways" and "Clearly Visible Highways".</br></br>   
 
 <ins>Project objective:</ins></br> 
 Smog is a byproduct of the global climate change scenario. As we move further into the industrialized age, Smog continues to pollute our air, reduce visibility on roads and is a leading cause of accidents on roads. The primary goal of the project is to avoid and help reduce rate of accidents in self driving vehicles by using this classifier model as one of the key components attached on traffic cams, so that the vehicle can automatically be alerted about smog on the roads/streets (highways) be it in heavy, medium or low traffic in order to adjust it's dynamics like speed, steering rotation, lanes etc. We can use the prediction output labels from the model to alert the vehicle / driver.</br></br>  
@@ -110,24 +110,6 @@ https://github.com/SayedMaheen/PlanetEarth </br>
 https://github.com/ingus-t/SmogDetection </br>
 https://github.com/ingus-t/SmogDetectionCombined </br>
 https://github.com/SayedMaheen/sg_PlanetEarth </br>
-****************************************************************************************************************************************
-
-**_Check out this exclusive web-app we have deployed for our project at https://smog4000.onrender.com/. At this site, you can upload your Smog/Clear images and test the accuracy of our classification system._**
-
-## Screenshots from the User Interface:
-
-**'Smog' Detection**
-
-![](screenshots/Capture.JPG)
-
-________________________________________________________________________________________________________________________________________
-
-**'Clear' Detection**
-
-![](screenshots/Capture1.JPG)
-
-
-While  the application works for all images, it works best for highway images.
 ****************************************************************************************************************************************
 ## PART 2: TECHNICAL SUMMARY OF FINAL IMPLEMENTATION WITH PYTORCH-
 ****************************************************************************************************************************************
